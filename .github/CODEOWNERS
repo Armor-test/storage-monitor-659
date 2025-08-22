@@ -1,0 +1,38 @@
+# CODEOWNERS file for storage-monitor-659
+# Global owners - will be requested for all PRs
+* @Armor-test/dept-reporting @Armor-test/squad-product @Armor-test/grp-api
+
+# Directory ownership
+/tests/ @Armor-test/grp-integration @Armor-test/team-notifications @Armor-test/team-logging
+/security/ @Armor-test/dept-identity @Armor-test/dept-security @Armor-test/unit-cloud
+/utils/ @Armor-test/dept-logging @Armor-test/squad-cloud @Armor-test/dept-automation
+/models/ @Armor-test/team-reporting @Armor-test/dept-security
+/static/ @Armor-test/team-security @Armor-test/grp-ui
+/services/ @Armor-test/grp-payments @Armor-test/squad-mobile
+/data/ @Armor-test/squad-frontend @Armor-test/team-reporting
+/db/ @Armor-test/unit-governance @Armor-test/dept-logging @Armor-test/grp-api
+/plugins/ @Armor-test/dept-billing @Armor-test/grp-search @Armor-test/squad-api
+/tools/ @Armor-test/team-core @Armor-test/grp-integration @Armor-test/squad-cloud
+/api/ @Armor-test/grp-integration @Armor-test/dept-reliability
+/examples/ @Armor-test/dept-security @Armor-test/dept-logging
+
+# File type ownership
+*.kt @Armor-test/team-notifications @Armor-test/dept-billing
+*.xml @Armor-test/grp-payments @Armor-test/squad-qa
+*.yaml @Armor-test/dept-security @Armor-test/team-governance @Armor-test/grp-reporting
+*.config @Armor-test/team-notifications @Armor-test/squad-research @Armor-test/unit-design
+*.md @Armor-test/team-logging @Armor-test/squad-research @Armor-test/dept-api
+*.c @Armor-test/team-frontend @Armor-test/squad-research @Armor-test/squad-search
+*.toml @Armor-test/squad-search @Armor-test/unit-cloud
+*.css @Armor-test/squad-performance @Armor-test/dept-logging
+*.go @Armor-test/squad-reporting @Armor-test/dept-automation @Armor-test/squad-database
+*.cs @Armor-test/squad-performance @Armor-test/squad-qa
+*.py @Armor-test/grp-api @Armor-test/grp-ui @Armor-test/squad-performance
+*.ini @Armor-test/team-governance @Armor-test/dept-test @Armor-test/dept-logging
+*.lock @Armor-test/dept-data @Armor-test/unit-design @Armor-test/team-reporting
+
+# Security and special files
+Dockerfile @Armor-test/devops @Armor-test/infra
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
